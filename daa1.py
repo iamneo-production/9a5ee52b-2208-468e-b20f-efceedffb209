@@ -3,7 +3,7 @@ m=int(input())
 x=[]
 b=[]
 t=1
-for i in range(1,n):
+for i in range(0,n):
     x.append(0)
 for j in range (0,n):
     a=list(map(int,input("enter adj matrix").strip().split()))
